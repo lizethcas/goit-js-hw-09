@@ -2,15 +2,11 @@
   "name": "goit-js-hw-09",
   "version": "1.0.0",
   "description": "temporizadores y promesas",
-  "main": "index.js",
-  "module": "dist/module.js",
+  "source": "dist/index.html",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "pro": "parcel build src/index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "watch": "parcel watch",
-    "build": "parcel build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
