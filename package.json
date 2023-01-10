@@ -5,6 +5,7 @@
   "source": "dist/index.html",
   "scripts": {
     "start": "parcel src/index.html",
+    "predeploy":"npm run build",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09/",
     "deploy": "gh-pages -d build"
   },
@@ -17,10 +18,13 @@
   "bugs": {
     "url": "https://github.com/lizethcas/goit-js-hw-09/issues"
   },
-  "homepage": "https://github.com/lizethcas/goit-js-hw-09#readme",
+  "homepage": "https://lizethcas.github.io/goit-js-hw-09/",
   "dependencies": {
     "flatpickr": "^4.6.13",
     "notiflix": "^3.2.5",
     "parcel": "^2.8.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
