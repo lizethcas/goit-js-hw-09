@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-09",
+  "version": "1.0.0",
+  "description": "temporizadores y promesas",
+  "main": "index.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "pro": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizethcas/goit-js-hw-09.git"
+  },
+  "author": "lizeth castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizethcas/goit-js-hw-09/issues"
+  },
+  "homepage": "https://github.com/lizethcas/goit-js-hw-09#readme",
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "notiflix": "^3.2.5",
+    "parcel": "^2.8.2"
+  }
+}
